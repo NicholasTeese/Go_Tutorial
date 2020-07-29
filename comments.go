@@ -25,5 +25,16 @@ but not left-hand side of an assignment."
 Ivalue = data location
 Rvalue = data
 
+"A program can have the same name for local and global variables
+but the value of the local variable inside a function takes preference."
+
+"The Go platform provides various libraries to manipulate strings."
+	- unicode
+	- regexp
+	- strings
+
+"Pointers in Go are easy and fun to learn."
+We'll see about that...
+
 
 */

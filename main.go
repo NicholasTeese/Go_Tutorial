@@ -31,7 +31,31 @@ func main() {
 	fmt.Printf("x is of type %T\n", x)
 	fmt.Printf("y is of type %T\n", y)
 	fmt.Printf("c is of type %T\n", c)
+
+	// local variable definition 
+	var a int = 100
+	var b int = 200
+	var ret int
+
+	//calling a function to get max value
+	ret = max(a,b)
+
+	fmt.Printf("max value is : %d\n", ret)
 }
+
+//example function, returns the higher number between two ints
+func max(num1, num2 int) int {
+result int
+
+	if (num1 > num2){
+		result = num1
+	} else{
+		result = num2
+	}
+return result
+}
+
+
 
 // HelloServer reads from the file "index" and returns the data inside
 // in the event of an error it will print the error instead
